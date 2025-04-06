@@ -1,0 +1,270 @@
+.ServiesfirstPara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 200px;
+  }
+  
+  .ServiesfirstParaArticle {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .ServiesfirstParaArticle h1 {
+    font-size: 2.5rem;
+    color:#006A4E;
+    margin-bottom: 20px;
+  }
+  
+  .ServiesfirstParaArticle p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
+  .ServiesservicesImage {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ServiesservicesImage img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+
+  /* second section style */
+
+  .ServiesSecondPara {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .ServiesSecondPara h1 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #006A4E;
+    font-weight: 600;
+  }
+  
+  /* Container for all cards */
+  .ServiesSecondPara > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Each service card */
+  .servies-card {
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .servies-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .servies-card p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+  }
+  
+  .ServiesthirdPara {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .ServiesthirdPara h1 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #006A4E;
+    font-weight: 600;
+  }
+  
+  /* Container for all cards */
+  .ServiesthirdPara > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .ServiesfourPara {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .ServiesfourPara h1 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #006A4E;
+    font-weight: 600;
+  }
+  
+  /* Container for all cards */
+  .ServiesfourPara > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  .quoteSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .quoteImage img {
+    width: 300px;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  
+  .quoteText {
+    max-width: 500px;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .quoteText h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #006A4E;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quoteText p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  /* For screens up to 1024px */
+@media (max-width: 1024px) {
+  .ServiesSecondPara > div,
+  .ServiesthirdPara > div,
+  .ServiesfourPara > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ServiesfirstPara {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ServiesfirstParaArticle,
+  .ServiesservicesImage {
+    max-width: 100%;
+  }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .ServiesSecondPara > div,
+  .ServiesthirdPara > div,
+  .ServiesfourPara > div {
+    grid-template-columns: 1fr;
+  }
+
+  .ServiesfirstPara {
+    margin-top: 100px;
+    padding: 40px 20px;
+  }
+
+  .ServiesfirstParaArticle h1 {
+    font-size: 2rem;
+  }
+
+  .ServiesfirstParaArticle p {
+    font-size: 1rem;
+  }
+
+  .ServiesSecondPara h1,
+  .ServiesthirdPara h1,
+  .ServiesfourPara h1 {
+    font-size: 1.8rem;
+  }
+
+  .quoteSection {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .quoteImage img {
+    width: 250px;
+  }
+
+  .quoteText h2 {
+    font-size: 1.3rem;
+  }
+
+  .quoteText p {
+    font-size: 0.95rem;
+  }
+}
+
+/* For small mobile screens (up to 420px) */
+@media (max-width: 420px) {
+  .ServiesfirstParaArticle h1 {
+    font-size: 1.6rem;
+  }
+
+  .ServiesfirstParaArticle p {
+    font-size: 0.95rem;
+  }
+
+  .servies-card p {
+    font-size: 0.9rem;
+  }
+
+  .quoteImage img {
+    width: 200px;
+  }
+
+  .quoteText {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .quoteText h2 {
+    font-size: 1.2rem;
+  }
+
+  .quoteText p {
+    font-size: 0.9rem;
+  }
+}
+
+  
+  

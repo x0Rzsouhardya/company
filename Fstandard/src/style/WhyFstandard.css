@@ -1,0 +1,382 @@
+.whyFirstPara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    flex-wrap: wrap; /* Mobile responsive */
+    gap: 2rem;
+    margin-top: 200px;
+  }
+  
+  .whyFirstParaArticle {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .whyFirstParaArticle h1 {
+    font-size: 2.5rem;
+    color: #006A4E; /* Brand color */
+    margin-bottom: 1rem;
+  }
+  
+  .whyFirstParaArticle p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
+  .whyFirstParaImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+  }
+  
+  .whyFirstParaImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* our approch */
+
+  .ourApproach {
+    padding: 4rem 2rem;
+    text-align: left;
+  }
+  
+  .approachContent {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .approachContent h2 {
+    color: #006A4E;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .approachContent p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 4rem 2rem;
+  }
+  
+  .reasonsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .reasonCard {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  
+  .reasonCard h3 {
+    color: #006A4E;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .reasonCard p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Icon styles */
+  .Experience-Icon,
+  .Workforce-Icon,
+  .Service-Icon,
+  .Client-Trust-Icon {
+    font-size: 3rem;
+    color: #006A4E;
+    margin-bottom: 1rem;
+  }
+
+  .impactSection {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .impactSection h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #006A4E;
+  }
+  
+  .impactGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .impactCard {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .impactCard h3 {
+    font-size: 2rem;
+    color: #006A4E;
+    margin-bottom: 10px;
+  }
+  
+  .impactCard p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+
+  .coverageSection {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .coverageSection h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #006A4E;
+  }
+  
+  .coverageSubtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  .locationsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .locationItem {
+    background-color: #f2fdf7;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #006A4E;
+  }
+
+  
+  .coverageMapSection {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.coverageMapSection h2 {
+  color: #006A4E;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.coverageMapSection p {
+  margin-bottom: 30px;
+  color: #444;
+  font-size: 1rem;
+}
+
+.coverageMapImage {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+.ctaSection {
+    background-color: #006A4E;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 16px;
+    margin: 60px 20px;
+  }
+  
+  .ctaContent h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .ctaContent p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ctaButton {
+    background-color: white;
+    color: #006A4E;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #f2fdf7;
+    color: #004c37;
+  }
+
+  /* ========== Max Width: 1024px (Tablet landscape) ========== */
+@media (max-width: 1024px) {
+  .whyFirstPara {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    padding: 40px 3%;
+  }
+
+  .whyFirstParaArticle,
+  .whyFirstParaImage {
+    max-width: 100%;
+  }
+
+  .ourApproach,
+  .card,
+  .impactSection,
+  .coverageSection,
+  .coverageMapSection,
+  .ctaSection {
+    padding: 50px 20px;
+  }
+
+  .approachContent h2 {
+    font-size: 2rem;
+  }
+
+  .approachContent p,
+  .reasonCard p,
+  .impactCard p,
+  .coverageMapSection p,
+  .ctaContent p {
+    font-size: 1.05rem;
+  }
+}
+
+/* ========== Max Width: 768px (Tablet portrait) ========== */
+@media (max-width: 768px) {
+  .whyFirstPara {
+    margin-top: 100px;
+    gap: 1.5rem;
+  }
+
+  .whyFirstParaArticle h1 {
+    font-size: 2rem;
+  }
+
+  .whyFirstParaArticle p {
+    font-size: 1.05rem;
+  }
+
+  .approachContent h2,
+  .impactSection h2,
+  .coverageSection h2,
+  .coverageMapSection h2,
+  .ctaContent h2 {
+    font-size: 1.8rem;
+  }
+
+  .reasonCard h3,
+  .impactCard h3 {
+    font-size: 1.3rem;
+  }
+
+  .coverageMapImage {
+    width: 100%;
+  }
+
+  .ctaContent p {
+    font-size: 1rem;
+  }
+
+  .ctaButton {
+    padding: 10px 25px;
+  }
+
+  .locationsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ========== Max Width: 420px (Mobile) ========== */
+@media (max-width: 420px) {
+  .whyFirstParaArticle h1 {
+    font-size: 1.5rem;
+  }
+
+  .whyFirstParaArticle p {
+    font-size: 0.95rem;
+  }
+
+  .approachContent h2,
+  .impactSection h2,
+  .coverageSection h2,
+  .coverageMapSection h2,
+  .ctaContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .approachContent p,
+  .reasonCard p,
+  .impactCard p,
+  .coverageMapSection p,
+  .coverageSubtitle,
+  .ctaContent p {
+    font-size: 0.95rem;
+  }
+
+  .reasonsGrid,
+  .impactGrid,
+  .locationsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaButton {
+    padding: 8px 20px;
+    font-size: 0.95rem;
+  }
+
+  .coverageMapImage {
+    width: 100%;
+  }
+
+  .locationItem {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}
+
+  
+  
+  

@@ -1,0 +1,171 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 120px auto 60px auto;
+  padding: 60px 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #006A4E;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form label {
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #006A4E;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #006A4E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #004d39;
+}
+
+/* Company Info */
+.contact-info {
+  flex: 1;
+  min-width: 320px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2 {
+  color: #006A4E;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.contact-info ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.contact-info li {
+  margin-bottom: 6px;
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #e6f2ef;
+  color: #006A4E;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #cde3db;
+}
+
+/* Map Section */
+.map-section {
+  margin-top: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  display: block;
+}
+
+
+
+
+.iconTheme {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #006A4E;
+  padding: 5px;
+  border-radius: 12px;
+  width: 80px;
+  justify-content: center;
+}
+
+
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.iconTheme p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}

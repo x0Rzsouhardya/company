@@ -1,0 +1,84 @@
+.blogPage {
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .blogPage h1 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 10px;
+  }
+  
+  .blogPage .intro {
+    font-size: 1.1rem;
+    color: #4b5563;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+  }
+  
+  .blogGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  /* ========== Max Width: 1024px ========== */
+@media (max-width: 1024px) {
+  .blogPage {
+    padding: 50px 15px;
+    margin-top: 150px;
+  }
+
+  .blogPage h1 {
+    font-size: 2.2rem;
+  }
+
+  .blogPage .intro {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+}
+
+/* ========== Max Width: 768px ========== */
+@media (max-width: 768px) {
+  .blogPage {
+    padding: 40px 10px;
+    margin-top: 120px;
+  }
+
+  .blogPage h1 {
+    font-size: 2rem;
+  }
+
+  .blogPage .intro {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .blogGrid {
+    gap: 25px;
+  }
+}
+
+/* ========== Max Width: 420px ========== */
+@media (max-width: 420px) {
+  .blogPage {
+    padding: 30px 10px;
+    margin-top: 100px;
+  }
+
+  .blogPage h1 {
+    font-size: 1.6rem;
+  }
+
+  .blogPage .intro {
+    font-size: 0.95rem;
+  }
+
+  .blogGrid {
+    gap: 20px;
+  }
+}
+
+  

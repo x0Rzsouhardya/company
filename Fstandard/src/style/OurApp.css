@@ -1,0 +1,280 @@
+.ourAppIntro {
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    margin-top: 200px;
+  }
+  
+  .ourAppIntro h1 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 20px;
+  }
+  
+  .ourAppIntro p {
+    font-size: 1.2rem;
+    color: #4b5563; /* muted gray */
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* 2 */
+  .appPurposeAndBenefits {
+    padding: 60px 20px;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .contentWrapper {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .purposeBox,
+  .benefitsBox {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .purposeBox h2,
+  .benefitsBox h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #006A4E;
+  }
+  
+  .purposeBox p {
+    font-size: 1.1rem;
+    color: #374151;
+    line-height: 1.6;
+  }
+  
+  .benefitsBox ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .benefitsBox li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    color: #374151;
+  }
+  
+
+  /* 4 */
+  .ourAppFeatures {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .ourAppFeatures h2 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 40px;
+  }
+  
+  .featureGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .featureBox {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .featureBox h3 {
+    font-size: 1.3rem;
+    color: #006A4E;
+    margin-bottom: 10px;
+  }
+  
+  .featureBox p {
+    color: #4b5563;
+    font-size: 1rem;
+  }
+
+  /* 5 */
+  .howItWorks {
+    background-color: #f9fafb;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .howItWorks h2 {
+    font-size: 2.2rem;
+    color: #006A4E;
+    margin-bottom: 30px;
+  }
+  
+  .howItWorks ol {
+    list-style: decimal inside;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .howItWorks li {
+    font-size: 1.1rem;
+    color: #374151;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    line-height: 1.6;
+  }
+
+/* 6 */
+
+.callToAction {
+    background-color:#66D2AA;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .callToAction h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #006A4E;
+  }
+  
+  .callToAction p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .callToAction button {
+    background-color: #006A4E;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .callToAction button:hover {
+    background-color: #006A4E;
+  }
+
+  /* -------- For screens ≤ 1024px -------- */
+@media (max-width: 1024px) {
+  .ourAppIntro h1,
+  .ourAppFeatures h2,
+  .howItWorks h2,
+  .callToAction h2 {
+    font-size: 2rem;
+  }
+
+  .ourAppIntro p,
+  .callToAction p {
+    font-size: 1.1rem;
+  }
+
+  .featureBox {
+    padding: 20px 16px;
+  }
+
+  .callToAction button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+/* -------- For screens ≤ 768px -------- */
+@media (max-width: 768px) {
+  .ourAppIntro {
+    padding: 40px 15px;
+    margin-top: 120px;
+  }
+
+  .ourAppIntro h1 {
+    font-size: 1.8rem;
+  }
+
+  .ourAppIntro p,
+  .purposeBox p,
+  .benefitsBox li,
+  .howItWorks li,
+  .callToAction p {
+    font-size: 1rem;
+  }
+
+  .appPurposeAndBenefits {
+    padding: 40px 15px;
+  }
+
+  .featureGrid {
+    gap: 20px;
+  }
+
+  .howItWorks ol {
+    padding-left: 10px;
+  }
+
+  .callToAction {
+    padding: 40px 15px;
+  }
+
+  .callToAction h2 {
+    font-size: 2rem;
+  }
+}
+
+/* -------- For screens ≤ 420px -------- */
+@media (max-width: 420px) {
+  .ourAppIntro {
+    margin-top: 120px;
+    padding: 30px 10px;
+  }
+
+  .ourAppIntro h1,
+  .ourAppFeatures h2,
+  .howItWorks h2,
+  .callToAction h2 {
+    font-size: 1.5rem;
+  }
+
+  .ourAppIntro p,
+  .featureBox p,
+  .howItWorks li,
+  .benefitsBox li,
+  .purposeBox p,
+  .callToAction p {
+    font-size: 0.95rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .callToAction button {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
+  
+  
+  
+  

@@ -1,0 +1,367 @@
+.companyHero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 200px;
+  }
+  
+  .heroContent {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .heroContent h1 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 1rem;
+  }
+  
+  .heroContent p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .heroImage {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .heroImage img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  /* 2 */
+  .missionVision {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .missionBox,
+  .visionBox {
+    flex: 1;
+    min-width: 280px;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .missionBox h2,
+  .visionBox h2 {
+    color: #006A4E;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .missionBox p,
+  .visionBox p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* 3 */
+  .coreValues {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .coreValues h2 {
+    font-size: 2rem;
+    color: #006A4E;
+    margin-bottom: 2rem;
+  }
+  
+  .coreValues ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .coreValues li {
+    background-color: #f7f7f7;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid #006A4E;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .coreValues li strong {
+    color: #006A4E;
+  }
+
+ /* 4   */
+
+ .founderMessage {
+    background-color: #f4fdf9;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .founderMessage h2 {
+    font-size: 2rem;
+    color: #006A4E;
+    margin-bottom: 2rem;
+  }
+  
+  .founderMessage p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .founderMessage em {
+    font-style: italic;
+    color: #006A4E;
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  /* 5 */
+
+  .ourTeam {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .ourTeam h2 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 40px;
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .teamMember {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    
+  }
+  
+  
+  
+  .teamMember img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .teamMember h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .teamMember p {
+    font-size: 0.95rem;
+    color: #777;
+  }
+
+  /* 6 */
+
+  .timeline {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .timeline h2 {
+    font-size: 2.5rem;
+    color: #006A4E;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .timeline ul {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    border-left: 3px solid #006A4E;
+    margin-left: 20px;
+  }
+  
+  .timeline ul li {
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .timeline ul li::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: -13px;
+    width: 16px;
+    height: 16px;
+    background-color: #006A4E;
+    border: 2px solid white;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* ----------- For screens ≤ 1024px ----------- */
+@media (max-width: 1024px) {
+  .companyHero,
+  .missionVision {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroContent h1,
+  .founderMessage h2,
+  .timeline h2,
+  .coreValues h2,
+  .ourTeam h2 {
+    font-size: 2rem;
+  }
+
+  .heroImage img {
+    max-width: 100%;
+  }
+
+  .timeline {
+    padding: 40px 20px;
+  }
+
+  .timeline ul {
+    margin-left: 0;
+    border-left: none;
+  }
+
+  .timeline ul li {
+    padding-left: 20px;
+  }
+
+  .timeline ul li::before {
+    display: none;
+  }
+}
+
+/* ----------- For screens ≤ 768px ----------- */
+@media (max-width: 768px) {
+  .companyHero,
+  .missionVision {
+    padding: 3rem 1.5rem;
+  }
+
+  .heroContent h1 {
+    font-size: 1.8rem;
+  }
+
+  .heroContent p,
+  .missionBox p,
+  .visionBox p,
+  .coreValues li,
+  .founderMessage p {
+    font-size: 1rem;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  .teamMember img {
+    max-width: 120px;
+  }
+
+  .founderMessage {
+    padding: 3rem 1rem;
+  }
+}
+
+/* ----------- For screens ≤ 420px ----------- */
+@media (max-width: 420px) {
+  .companyHero,
+  .missionVision,
+  .coreValues,
+  .ourTeam,
+  .timeline,
+  .founderMessage {
+    padding: 2rem 1rem;
+    margin-top: 0;
+  }
+
+  .heroContent h1,
+  .founderMessage h2,
+  .ourTeam h2,
+  .timeline h2,
+  .coreValues h2 {
+    font-size: 1.5rem;
+  }
+
+  .heroContent p,
+  .coreValues li,
+  .timeline ul li,
+  .missionBox p,
+  .visionBox p,
+  .teamMember p {
+    font-size: 0.95rem;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroImage img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .timeline ul {
+    padding-left: 0;
+  }
+.companyHero {
+  margin-top: 120px;
+}
+
+}
+
+  
+  
+  
+  
