@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../Style/BlogList.css';
+import '../style/BlogList.css';
 
 function BlogList({ refreshTrigger }) {
   const [blogs, setBlogs] = useState([]);
